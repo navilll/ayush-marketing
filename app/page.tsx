@@ -4,6 +4,7 @@ import { TestimonialSlider1 } from "@/components/TestimonialSlider";
 import BannerSlider from "@/components/BannerSlider";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -38,7 +39,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/01.jpg" alt="BOPP Lamination Film" />
+                  <Image src="/assets/img/home/bopp.jpg" alt="BOPP Lamination Film" width={180} height={165} />
                 </div>
               </div>
             </div>
@@ -51,8 +52,8 @@ const page = () => {
                   <p>02</p>
                   <h5>
                     <Link href="products">
-                      CTP &amp; CTCP <br />
-                      Plates
+                      GL BOPP <br />
+                      Film
                     </Link>
                   </h5>
                   <Link className="arrow-btn" href="products">
@@ -60,7 +61,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/02.jpg" alt="CTP CTCP Plates" />
+                  <Image src="/assets/img/home/ctp.webp" alt="GL BOPP Film" width={180} height={165} />
                 </div>
               </div>
             </div>
@@ -73,6 +74,72 @@ const page = () => {
                   <p>03</p>
                   <h5>
                     <Link href="products">
+                      MT BOPP <br />
+                      Film
+                    </Link>
+                  </h5>
+                  <Link className="arrow-btn" href="products">
+                    <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+                <div className="thumb">
+                  <Image src="/assets/img/home/double-layered-ctp.webp" alt="MT BOPP Film" width={180} height={165} />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div className="service-items">
+                <div className="content">
+                  <p>04</p>
+                  <h5>
+                    <Link href="products">
+                      CTP &amp; CTCP <br />
+                      Plates
+                    </Link>
+                  </h5>
+                  <Link className="arrow-btn" href="products">
+                    <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+                <div className="thumb">
+                  <Image src="/assets/img/home/ctp.webp" alt="CTP CTCP Plates" width={180} height={165} />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".5s"
+            >
+              <div className="service-items">
+                <div className="content">
+                  <p>05</p>
+                  <h5>
+                    <Link href="products">
+                      Positive CTCP <br />
+                      Plates
+                    </Link>
+                  </h5>
+                  <Link className="arrow-btn" href="products">
+                    <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+                <div className="thumb">
+                  <Image src="/assets/img/home/ctp.webp" alt="Positive CTCP Plates" width={180} height={165} />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".7s"
+            >
+              <div className="service-items">
+                <div className="content">
+                  <p>06</p>
+                  <h5>
+                    <Link href="products">
                       Double Layer <br />
                       Thermal CTP Plates
                     </Link>
@@ -82,7 +149,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/03.jpg" alt="Double Layer Thermal CTP Plate" />
+                  <Image src="/assets/img/home/double-layered-ctp.webp" alt="Double Layer Thermal CTP Plate" width={180} height={165} />
                 </div>
               </div>
             </div>
@@ -321,17 +388,17 @@ const page = () => {
                 <span className="text-slider">BOPP</span>
                 <span className="text-slider">Lamination Film </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">CTP</span>
-                <span className="text-slider">Plates </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">CTCP</span>
-                <span className="text-slider">Plates </span>
-                <span className="text-slider style-border" />
                 <span className="text-slider">GL </span>
                 <span className="text-slider">BOPP Film</span>
                 <span className="text-slider style-border" />
                 <span className="text-slider">MT </span>
                 <span className="text-slider">BOPP Film</span>
+                <span className="text-slider style-border" />
+                <span className="text-slider">CTP</span>
+                <span className="text-slider">Plates </span>
+                <span className="text-slider style-border" />
+                <span className="text-slider">CTCP</span>
+                <span className="text-slider">Plates </span>
                 <span className="text-slider style-border" />
                 <span className="text-slider">Double Layer</span>
                 <span className="text-slider">Thermal CTP </span>
@@ -339,17 +406,17 @@ const page = () => {
                 <span className="text-slider">BOPP</span>
                 <span className="text-slider">Lamination Film </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">CTP</span>
-                <span className="text-slider">Plates </span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">CTCP</span>
-                <span className="text-slider">Plates </span>
-                <span className="text-slider style-border" />
                 <span className="text-slider">GL </span>
                 <span className="text-slider">BOPP Film</span>
                 <span className="text-slider style-border" />
                 <span className="text-slider">MT </span>
                 <span className="text-slider">BOPP Film</span>
+                <span className="text-slider style-border" />
+                <span className="text-slider">CTP</span>
+                <span className="text-slider">Plates </span>
+                <span className="text-slider style-border" />
+                <span className="text-slider">CTCP</span>
+                <span className="text-slider">Plates </span>
                 <span className="text-slider style-border" />
                 <span className="text-slider">Double Layer</span>
                 <span className="text-slider">Thermal CTP </span>

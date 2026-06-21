@@ -1517,14 +1517,13 @@ input.main-search-input::placeholder {
   color: var(--theme);
 }
 .header-main .main-menu ul li .has-homemenu {
-  width: 1250px;
-  padding: 30px 30px 10px 30px;
-  opacity: 0;
-  left: -250px;
-  visibility: hidden;
-  padding: 30px 30px 10px 30px;
-  overflow-y: scroll;
-  max-height: 70vh;
+    opacity: 0;
+    visibility: hidden;
+    width: 1250px;
+    max-height: 70vh;
+    padding: 30px 30px 10px;
+    left: -500px;
+    overflow-y: scroll;
 }
 .header-main .main-menu ul li .has-homemenu .homemenu {
   position: relative;
@@ -1649,7 +1648,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 1399px) {
   .header-main .header-right .menu-cart .cart-box {
-    left: -260px;
+    left: -500px;
   }
 }
 .header-main .header-right .menu-cart .cart-box ul li {
@@ -5296,6 +5295,7 @@ input.main-search-input::placeholder {
 .service-items .content {
   padding-left: 30px;
   overflow: hidden;
+  width: 200px;
 }
 @media (max-width: 991px) {
   .service-items .content {
