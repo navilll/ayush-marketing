@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.hero-swiper {
+  width: 100%;
+}
+
+.hero-slide {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 30px 0px;
+}
+
+/* Keep Swiper pagination/nav above content */
+.hero-swiper .swiper-button-next,
+.hero-swiper .swiper-button-prev {
+  color: #fff;
+  z-index: 10;
+}
+
+
+.hero-swiper .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.6;
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+  background: #fff;
+  opacity: 1;
+}
+
+/* Make header transparent over hero */
+.hero-swiper {
+  margin-top: -80px; /* adjust to match your header height */
+  padding-top: 80px;
+}
+
+/* Swiper fade fix — hide inactive slides completely */
+.swiper-slide {
+  opacity: 0 !important;
+  pointer-events: none;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+  pointer-events: auto;
+}
+
+.hero-slide {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.logo-1 {
+    height: 60px;
+}
+.logo-2 {
+    height: 60px;
+}
+
+.swiper-horizontal .swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 19px) !important;
+    left: auto;
+}
+
+.swiper-horizontal .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 24px) !important;
+    right: auto;
+}
