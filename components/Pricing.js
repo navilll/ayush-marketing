@@ -7,13 +7,16 @@ const Pricing = () => {
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
             <img src="assets/img/bale.png" alt="img" />
-            Pricing Package
+            Why Choose Aayush Marketing
           </span>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            Popular Pricing For IT Consulting
+            Trusted Supply Partner For <br />
+            Printing & Packaging Industries
           </h2>
         </div>
+
         <div className="row">
+          {/* Card 1 */}
           <div
             className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
             data-wow-delay=".3s"
@@ -22,30 +25,37 @@ const Pricing = () => {
               <div className="pricing-shape">
                 <img src="assets/img/pricing-shape.png" alt="shape-img" />
               </div>
+
               <div className="pricing-header">
-                <h3>Regular Plan</h3>
-                <p>For Small Businesses</p>
+                <h3>Premium Quality Materials</h3>
+                <p>
+                  Reliable products designed to deliver consistent printing
+                  performance and superior results.
+                </p>
               </div>
+
               <ul className="pricing-list">
-                <li>IT Consulting</li>
-                <li>Digital Product Design</li>
-                <li>Machine Learning</li>
-                <li className="style-2">Automation templates</li>
-                <li className="style-2">Great Customer Support</li>
+                <li>High-Grade BOPP Films</li>
+                <li>Premium CTP & CTCP Plates</li>
+                <li>Consistent Print Quality</li>
+                <li>Industry Standard Products</li>
+                <li>Quality Assured Supply</li>
               </ul>
+
               <div className="pricing-bottom">
-                <h2>
-                  $19 <span>/month</span>
-                </h2>
-                <p>For Small Businesses</p>
+                <h2>01</h2>
+                <p>Quality Assurance</p>
               </div>
+
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn style-transparent">
-                  Choose Package
+                <Link href="/contact" className="theme-btn style-transparent">
+                  Contact Us
                 </Link>
               </div>
             </div>
           </div>
+
+          {/* Card 2 */}
           <div
             className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
             data-wow-delay=".5s"
@@ -54,30 +64,37 @@ const Pricing = () => {
               <div className="pricing-shape">
                 <img src="assets/img/pricing-shape-2.png" alt="shape-img" />
               </div>
+
               <div className="pricing-header">
-                <h3>Business Plan</h3>
-                <p>For Small Businesses</p>
+                <h3>Ready Stock Availability</h3>
+                <p>
+                  Well-maintained inventory ensures quick fulfillment and
+                  uninterrupted business operations.
+                </p>
               </div>
+
               <ul className="pricing-list">
-                <li>IT Consulting</li>
-                <li>Digital Product Design</li>
-                <li>Machine Learning</li>
-                <li>Automation templates</li>
-                <li>Great Customer Support</li>
+                <li>Fast Order Processing</li>
+                <li>Bulk Supply Support</li>
+                <li>Warehouse Stock Ready</li>
+                <li>Reliable Product Availability</li>
+                <li>Quick Dispatch Service</li>
               </ul>
+
               <div className="pricing-bottom">
-                <h2>
-                  $53 <span>/month</span>
-                </h2>
-                <p>For Small Businesses</p>
+                <h2>02</h2>
+                <p>Inventory Strength</p>
               </div>
+
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn style-transparent">
-                  Choose Package
+                <Link href="/contact" className="theme-btn style-transparent">
+                  Contact Us
                 </Link>
               </div>
             </div>
           </div>
+
+          {/* Card 3 */}
           <div
             className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
             data-wow-delay=".7s"
@@ -86,218 +103,33 @@ const Pricing = () => {
               <div className="pricing-shape">
                 <img src="assets/img/pricing-shape.png" alt="shape-img" />
               </div>
-              <div className="pricing-header">
-                <h3>Professional Plan</h3>
-                <p>For Small Businesses</p>
-              </div>
-              <ul className="pricing-list">
-                <li>IT Consulting</li>
-                <li>Digital Product Design</li>
-                <li>Machine Learning</li>
-                <li className="style-2">Automation templates</li>
-                <li className="style-2">Great Customer Support</li>
-              </ul>
-              <div className="pricing-bottom">
-                <h2>
-                  $99 <span>/month</span>
-                </h2>
-                <p>For Small Businesses</p>
-              </div>
-              <div className="pricing-button">
-                <Link href="contact" className="theme-btn style-transparent">
-                  Choose Package
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-export default Pricing;
 
-export const Pricing2 = ({
-  priceingClass = "pricing-section-3",
-  paddingTop = "0",
-}) => {
-  return (
-    <section
-      className={`fix section-padding pt-${paddingTop} ${priceingClass}`}
-      id="pricing"
-    >
-      <div className="container">
-        <div className="section-title text-center">
-          <span className="sec-sub-text-2 wow fadeInUp">Pricing Package</span>
-          <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            We Offer Amazing Pricing Package <br />
-            keep Under Budget
-          </h2>
-        </div>
-        <div className="row">
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".3s"
-          >
-            <div className="pricing-card-items-2">
               <div className="pricing-header">
-                <h3>Regular Plan</h3>
+                <h3>Reliable Distribution</h3>
                 <p>
-                  Sed ut perspiciatis unde omnis istewse natus sit voluptatem
-                  accusa
+                  Efficient logistics and customer-focused service across
+                  various regions of wide range.
                 </p>
               </div>
+
+              <ul className="pricing-list">
+                <li>Timely Deliveries</li>
+                <li>Business-to-Business Support</li>
+                <li>Safe Product Handling</li>
+                <li>Responsive Customer Service</li>
+                <li>Long-Term Partnerships</li>
+              </ul>
+
+              <div className="pricing-bottom">
+                <h2>03</h2>
+                <p>Delivery Excellence</p>
+              </div>
+
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn bg-header">
-                  Choose Package
+                <Link href="/contact" className="theme-btn style-transparent">
+                  Contact Us
                 </Link>
               </div>
-              <div className="price-items">
-                <h2>
-                  <sub>$</sub>12 <span>/month</span>
-                </h2>
-                <div className="discount">
-                  <h6>
-                    23% <br />
-                    OFF
-                  </h6>
-                </div>
-                <div className="arrow-img">
-                  <img src="assets/img/arrow.png" alt="img" />
-                </div>
-              </div>
-              <ul className="price-list">
-                <li>
-                  <i className="far fa-check" />
-                  Blog &amp; Article Copy
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  eCommerce Copy
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  Social Media Copy
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  Content Writing
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  Ad Providing
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".5s"
-          >
-            <div className="pricing-card-items-2 active">
-              <div className="pricing-header">
-                <h3>Standard Plan</h3>
-                <p>
-                  Sed ut perspiciatis unde omnis istewse natus sit voluptatem
-                  accusa
-                </p>
-              </div>
-              <div className="pricing-button">
-                <Link href="contact" className="theme-btn bg-header">
-                  Choose Package
-                </Link>
-              </div>
-              <div className="price-items">
-                <h2>
-                  <sub>$</sub>45<span>/month</span>
-                </h2>
-                <div className="discount">
-                  <h6>
-                    23% <br />
-                    OFF
-                  </h6>
-                </div>
-                <div className="arrow-img">
-                  <img src="assets/img/arrow-2.png" alt="img" />
-                </div>
-              </div>
-              <ul className="price-list">
-                <li>
-                  <i className="far fa-check" />
-                  Blog &amp; Article Copy
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  eCommerce Copy
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  Social Media Copy
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  Content Writing
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  Ad Providing
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".7s"
-          >
-            <div className="pricing-card-items-2">
-              <div className="pricing-header">
-                <h3>Premium Plan</h3>
-                <p>
-                  Sed ut perspiciatis unde omnis istewse natus sit voluptatem
-                  accusa
-                </p>
-              </div>
-              <div className="pricing-button">
-                <Link href="contact" className="theme-btn bg-header">
-                  Choose Package
-                </Link>
-              </div>
-              <div className="price-items">
-                <h2>
-                  <sub>$</sub>98<span>/month</span>
-                </h2>
-                <div className="discount">
-                  <h6>
-                    23% <br />
-                    OFF
-                  </h6>
-                </div>
-                <div className="arrow-img">
-                  <img src="assets/img/arrow.png" alt="img" />
-                </div>
-              </div>
-              <ul className="price-list">
-                <li>
-                  <i className="far fa-check" />
-                  Blog &amp; Article Copy
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  eCommerce Copy
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  Social Media Copy
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  Content Writing
-                </li>
-                <li>
-                  <i className="far fa-check" />
-                  Ad Providing
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -305,3 +137,5 @@ export const Pricing2 = ({
     </section>
   );
 };
+
+export default Pricing;

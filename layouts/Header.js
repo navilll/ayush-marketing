@@ -436,7 +436,7 @@ const Sidebar = ({ sidebarToggle, close, menu }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo.png" alt="logo-img" className="logo-1" />
+                    <img src="assets/img/logo.webp" alt="logo-img" className="logo-1" />
                   </Link>
                 </div>
                 <div className="offcanvas__close" onClick={() => close()}>
@@ -537,7 +537,7 @@ const HeaderMain = ({ menu }) => {
                 <Link href="/">
                   <img
 
-                    src="assets/img/logo-white.png"
+                    src="assets/img/logo-white.webp"
                     alt="logo-img"
                     className="logo-1"
                   />
@@ -545,7 +545,7 @@ const HeaderMain = ({ menu }) => {
                 <Link href="/">
                   <img
 
-                    src="assets/img/logo.png"
+                    src="assets/img/logo.webp"
                     alt="logo-img"
                     className="logo-2"
                   />

@@ -1,6 +1,5 @@
 import FunFactCounter from "@/components/FunFactCounter";
 import Pricing from "@/components/Pricing";
-import { TestimonialSlider1 } from "@/components/TestimonialSlider";
 import BannerSlider from "@/components/BannerSlider";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
@@ -61,7 +60,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <Image src="/assets/img/home/ctp.webp" alt="GL BOPP Film" width={180} height={165} />
+                  <Image src="/assets/img/home/glbopp.webp" alt="GL BOPP Film" width={180} height={165} />
                 </div>
               </div>
             </div>
@@ -83,7 +82,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <Image src="/assets/img/home/double-layered-ctp.webp" alt="MT BOPP Film" width={180} height={165} />
+                  <Image src="/assets/img/home/mt-bopp.jpg" alt="MT BOPP Film" width={180} height={165} />
                 </div>
               </div>
             </div>
@@ -127,7 +126,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <Image src="/assets/img/home/ctp.webp" alt="Positive CTCP Plates" width={180} height={165} />
+                  <Image src="/assets/img/home/positive-ctp.jpg" alt="Positive CTCP Plates" width={180} height={165} />
                 </div>
               </div>
             </div>
@@ -177,12 +176,12 @@ const page = () => {
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
-                        <img src="assets/img/about/01.jpg" alt="Printing materials warehouse" />
+                        <img src="assets/img/home/about1.webp" alt="Printing materials warehouse" />
                       </div>
                     </div>
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".4s">
                       <div className="about-image">
-                        <img src="assets/img/about/02.jpg" alt="BOPP film rolls" />
+                        <img src="assets/img/home/about2.webp" alt="BOPP film rolls" />
                       </div>
                     </div>
                   </div>
@@ -252,11 +251,11 @@ const page = () => {
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
               <img src="assets/img/bale.png" alt="img" />
-              Our Product Range
+              Explore Our Catalog
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Premium Quality Materials <br />
-              For Your Printing Business
+              Industry-Grade Printing Materials <br />
+              Engineered For Performance
             </h2>
           </div>
           <div className="row">
@@ -270,17 +269,17 @@ const page = () => {
                 </div>
                 <h3>
                   <Link href="products">
-                    BOPP Lamination Film
+                    Protective Overlaminate
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/04.png" alt="BOPP Lamination Film" />
+                  <img src="assets/img/home/protective.jpg" alt="Protective Overlaminate" />
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
                 <Link className="link-btn" href="products">
-                  Read More
+                  View Details
                   <i className="far fa-arrow-right" />
                 </Link>
               </div>
@@ -295,17 +294,17 @@ const page = () => {
                 </div>
                 <h3>
                   <Link href="products">
-                    GL &amp; MT BOPP Film
+                    Specialty Coating Films
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/05.png" alt="GL MT BOPP Film" />
+                  <img src="assets/img/home/coating.jpg" alt="Specialty Coating Films" />
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
                 <Link className="link-btn" href="products">
-                  Read More
+                  View Details
                   <i className="far fa-arrow-right" />
                 </Link>
               </div>
@@ -320,17 +319,17 @@ const page = () => {
                 </div>
                 <h3>
                   <Link href="products">
-                    CTP &amp; CTCP Plates
+                    Offset Printing Plates
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/06.png" alt="CTP CTCP Plates" />
+                  <img src="assets/img/home/double-layer.webp" alt="Offset Printing Plates" />
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
                 <Link className="link-btn" href="products">
-                  Read More
+                  View Details
                   <i className="far fa-arrow-right" />
                 </Link>
               </div>
@@ -345,17 +344,17 @@ const page = () => {
                 </div>
                 <h3>
                   <Link href="products">
-                    Double Layer Thermal CTP Plate
+                    Advanced Plate Solutions
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/07.png" alt="Double Layer Thermal CTP" />
+                  <img src="assets/img/home/ctp-plate.webp" alt="Advanced Plate Solutions" />
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
                 <Link className="link-btn" href="products">
-                  Read More
+                  View Details
                   <i className="far fa-arrow-right" />
                 </Link>
               </div>
@@ -367,14 +366,15 @@ const page = () => {
       {/* CTA Video Section */}
       <div
         className="cta-video-section fix bg-cover"
-        style={{ backgroundImage: 'url("assets/img/cta/cta-video.jpg")' }}
+        style={{ backgroundImage: 'url("assets/img/home/video-banner.webp")' }}
       >
         <div className="container">
           <div className="cta-video-wrapper">
             <div className="video-box">
               <Link
-                href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
+                href="https://youtu.be/LbhJxdwhIZk?si=Xhe0Cot7zBrNLtWi"
                 className="video-buttton ripple video-popup"
+                target="_blank"
               >
                 <i className="fas fa-play" />
               </Link>
@@ -453,7 +453,7 @@ const page = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/01.jpg" alt="Verified Quality" />
+                  <img src="assets/img/home/verified.jpg" alt="Verified Quality" />
                 </div>
                 <div className="team-content">
                   <h4>Verified Quality</h4>
@@ -467,7 +467,7 @@ const page = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/02.jpg" alt="Fast Delivery" />
+                  <img src="assets/img/home/delivery.jpg" alt="Fast Delivery" />
                 </div>
                 <div className="team-content">
                   <h4>Fast Local Delivery</h4>
@@ -481,7 +481,7 @@ const page = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/03.jpg" alt="Expert Guidance" />
+                  <img src="assets/img/home/expert.jpg" alt="Expert Guidance" />
                 </div>
                 <div className="team-content">
                   <h4>Expert Guidance</h4>
@@ -495,7 +495,7 @@ const page = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/04.jpg" alt="Consistent Stock" />
+                  <img src="assets/img/home/instock.jpg" alt="Consistent Stock" />
                 </div>
                 <div className="team-content">
                   <h4>Consistent Stock</h4>
@@ -509,7 +509,7 @@ const page = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/05.jpg" alt="Competitive Pricing" />
+                  <img src="assets/img/home/pricing.jpg" alt="Competitive Pricing" />
                 </div>
                 <div className="team-content">
                   <h4>Competitive Pricing</h4>
@@ -576,7 +576,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/01.jpg" alt="BOPP Lamination Film" />
+                  <img src="assets/img/home/bopp-lamination.jpg" alt="BOPP Lamination Film" />
                 </div>
                 <div className="content">
                   <p>Packaging Film</p>
@@ -597,7 +597,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/02.jpg" alt="CTP Plates" />
+                  <img src="assets/img/home/ctp-plate.webp" alt="CTP Plates" />
                 </div>
                 <div className="content">
                   <p>Offset Printing</p>
@@ -618,7 +618,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/03.jpg" alt="Double Layer CTP Plate" />
+                  <img src="assets/img/home/double-layer.webp" alt="Double Layer CTP Plate" />
                 </div>
                 <div className="content">
                   <p>High-Volume Printing</p>
@@ -641,7 +641,7 @@ const page = () => {
       <Pricing />
 
       {/* Testimonial Section */}
-      <section className="testimonial-section fix section-padding pt-0">
+      {/* <section className="testimonial-section fix section-padding pt-0">
         <div className="container">
           <div className="testimonial-wrapper">
             <div className="row g-4">
@@ -656,7 +656,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* News & Blog Section */}
       <section className="news-section section-padding pt-0">
