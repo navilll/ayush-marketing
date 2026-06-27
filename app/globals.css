@@ -38,7 +38,6 @@
 
 /* Swiper fade fix — hide inactive slides completely */
 .swiper-slide {
-  opacity: 0 !important;
   pointer-events: none;
 }
 
@@ -68,4 +67,29 @@
 .swiper-horizontal .swiper-button-prev {
     left: var(--swiper-navigation-sides-offset, 24px) !important;
     right: auto;
+}
+
+.breadcrumb-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.breadcrumb-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: -20px;
+  background-image: url("../public/assets/img/breadcrum.webp");
+  background-size: cover;
+  background-position: center;
+  filter:brightness(0.5);
+  z-index: 0;
+}
+
+.breadcrumb-wrapper .container {
+  position: relative;
+  z-index: 1;
+}
+
+.breadcrumb-items.wow.fadeInUp {
+color: #fff;
 }

@@ -1,16 +1,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FunFactCounter from "@/components/FunFactCounter";
-import Team from "@/components/Team";
 import { TestimonialSlider2 } from "@/components/TestimonialSlider";
-import { WorkingProcess2 } from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 
 const page = () => {
   return (
     <NextLayout>
-      {/*<< Breadcrumb Section Start >>*/}
-      <Breadcrumb />
+      <Breadcrumb pageName="About Us" pageTitle="About Us" />
 
       {/* About Section Start */}
       <section className="about-section fix section-padding pb-0">
@@ -50,7 +47,7 @@ const page = () => {
               </div>
               <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                 <div className="about-image-3">
-                  <img src="assets/img/about/05.jpg" alt="img" />
+                  <img src="assets/img/about/about-1.webp" alt="img" />
                 </div>
               </div>
             </div>
@@ -65,7 +62,7 @@ const page = () => {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                 <div className="about-image-3">
-                  <img src="assets/img/about/06.jpg" alt="img" />
+                  <img src="assets/img/home/ctp.webp" alt="img" />
                 </div>
               </div>
               <div className="col-lg-6">
@@ -105,63 +102,22 @@ const page = () => {
         </div>
       </section>
 
-      {/* Team Section Start */}
-      <Team />
-
       {/* Funfact Section Start */}
-      <section className="funfact-section-2 section-padding pt-0">
+      <section className="funfact-section section-padding pt-0">
         <div className="container">
-          <FunFactCounter style={2} />
-        </div>
-      </section>
-
-      {/* Working Process Section Start */}
-      <WorkingProcess2 />
-
-      {/* Brand Section Start */}
-      <section className="brand-section-2 mt-0 mb-0 fix section-padding pt-0">
-        <div className="container-fluid">
-          <div className="brand-wrapper-2">
-            <div className="radius-shape">
-              <img src="assets/img/brand/radius-left.png" alt="shape-img" />
-            </div>
-            <div className="radius-shape-2">
-              <img src="assets/img/brand/radius-right.png" alt="shape-img" />
-            </div>
-            <h5 className="wow fadeInUp" data-wow-delay=".3s">
-              Trusted by <span>500+</span> Printing &amp; Packaging Businesses Across Karnataka
-            </h5>
-            <div className="brand-items">
-              <div className="brand-image wow fadeInUp" data-wow-delay=".2s">
-                <img src="assets/img/brand/linkedIn.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".4s">
-                <img src="assets/img/brand/dropbox.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".6s">
-                <img src="assets/img/brand/trello.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".8s">
-                <img src="assets/img/brand/framer.png" alt="img" />
-              </div>
-            </div>
-            <div className="brand-items">
-              <div className="brand-image wow fadeInUp" data-wow-delay=".2s">
-                <img src="assets/img/brand/grammarly.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".4s">
-                <img src="assets/img/brand/amazon.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".6s">
-                <img src="assets/img/brand/outbrain.png" alt="img" />
-              </div>
-              <div className="brand-image wow fadeInUp" data-wow-delay=".8s">
-                <img src="assets/img/brand/shopify.png" alt="img" />
-              </div>
-            </div>
+          <div className="section-title text-center">
+            <span className="sub-content wow fadeInUp">
+              <img src="assets/img/bale.png" alt="img" />
+              Our Numbers
+            </span>
+            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+              Aayush Marketing at a Glance
+            </h2>
           </div>
+          <FunFactCounter />
         </div>
       </section>
+
 
       {/* Testimonial Section Start */}
       <section className="testimonial-section-2 fix section-padding fix">

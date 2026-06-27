@@ -1,4 +1,5 @@
 import Counter from "./Counter";
+
 const FunFactCounter = () => {
   return (
     <div className="row">
@@ -9,29 +10,37 @@ const FunFactCounter = () => {
         <div className="funfact-box-items">
           <h2>
             <span className="count">
-              <Counter end={98} decimals={1} />
+              <Counter end={6} />
             </span>
-            %
+            +
           </h2>
-          <h6>Average Conversion Rate</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <h6>BOPP Film Variants</h6>
+          <p>
+            Gloss, Matte, Metalized, White Opaque, Heat Sealable & Anti-Fog
+            films for diverse packaging needs.
+          </p>
         </div>
       </div>
+
       <div
         className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
         data-wow-delay=".4s"
       >
-        <div className={`funfact-box-items active`}>
+        <div className="funfact-box-items active">
           <h2>
             <span className="count">
-              <Counter end={35} decimals={1} />
+              <Counter end={10} />
             </span>
-            m+
+            +
           </h2>
-          <h6>Traffic Generated</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <h6>Industry Applications</h6>
+          <p>
+            Trusted for packaging, commercial printing, labels, books,
+            pharmaceuticals, FMCG, cosmetics.
+          </p>
         </div>
       </div>
+
       <div
         className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
         data-wow-delay=".6s"
@@ -39,14 +48,18 @@ const FunFactCounter = () => {
         <div className="funfact-box-items">
           <h2>
             <span className="count">
-              <Counter end={97} decimals={1} />
+              <Counter end={3} />
             </span>
-            %
+            +
           </h2>
-          <h6>Positive Customer Review</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <h6>Printing Plate Solutions</h6>
+          <p>
+            Premium CTP, CTCP, and Double Layer CTP plates engineered for
+            precision, durability.
+          </p>
         </div>
       </div>
+
       <div
         className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
         data-wow-delay=".8s"
@@ -54,15 +67,19 @@ const FunFactCounter = () => {
         <div className="funfact-box-items">
           <h2>
             <span className="count">
-              <Counter end={92} decimals={1} />
+              <Counter end={100} />
             </span>
             %
           </h2>
-          <h6>Professional Team Members</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <h6>Quality & Reliable Supply</h6>
+          <p>
+            Premium products sourced from trusted manufacturers with competitive
+            pricing, timely delivery.
+          </p>
         </div>
       </div>
     </div>
   );
 };
+
 export default FunFactCounter;

@@ -1,6 +1,9 @@
 "use client";
+
+import "@css/swiper-bundle.min.css";
 import { sliderProps } from "@/utility/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 export const TestimonialSlider1 = () => {
   return (
     <Swiper
@@ -11,80 +14,64 @@ export const TestimonialSlider1 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <p>
-              We denounce with right indignation dislike men who are so beguile
-              and demoralized by the charms of pleasure of the moment, so
-              blinded by desire cannot foresee
+              "Ayush Marketing's BOPP lamination films have transformed our packaging quality. The crystal clear finish and moisture resistance are outstanding."
             </p>
             <div className="author-items">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Lucas J. Swe / <span>CO Founder</span>
+                    Rajesh Kumar / <span>Packaging Manager</span>
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <p>
-              We denounce with right indignation dislike men who are so beguile
-              and demoralized by the charms of pleasure of the moment, so
-              blinded by desire cannot foresee
+              "We've been using their CTP plates for our commercial printing needs. The image reproduction and consistency are truly exceptional."
             </p>
             <div className="author-items">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Lucas J. Swe / <span>CO Founder</span>
+                    Priya Sharma / <span>Printing Director</span>
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <p>
-              We denounce with right indignation dislike men who are so beguile
-              and demoralized by the charms of pleasure of the moment, so
-              blinded by desire cannot foresee
+              "The double layer CTP plates from Ayush Marketing have significantly improved our long-run printing efficiency. Highly recommended."
             </p>
             <div className="author-items">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Lucas J. Swe / <span>CO Founder</span>
+                    Amit Patel / <span>Production Head</span>
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <p>
-              We denounce with right indignation dislike men who are so beguile
-              and demoralized by the charms of pleasure of the moment, so
-              blinded by desire cannot foresee
+              "Their CTCP plates offer excellent cost-effectiveness without compromising on quality. A game-changer for our offset printing operations."
             </p>
             <div className="author-items">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Lucas J. Swe / <span>CO Founder</span>
+                    Sunita Reddy / <span>Printing Plant Owner</span>
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
             </div>
           </div>
         </SwiperSlide>
@@ -105,113 +92,65 @@ export const TestimonialSlider2 = ({ style = "style-1" }) => {
       <div className="swiper-wrapper">
         <SwiperSlide className="swiper-slide">
           <div className={`testimonial-card-items ${style}`}>
-            <div className="testimonial-image">
-              <img src="assets/img/testimonial/client-2.png" alt="img" />
-            </div>
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Michael M. Griffin <span>/CO Founder</span>
+                    Vikram Singh <span>/Label Manufacturer</span>
                   </h5>
                 </div>
               </div>
               <p>
-                We denounce with righteous indignation and dislike men who are
-                so beguiled demoralized by the charms of pleasure of the moment
+                "The matte BOPP film from Ayush Marketing gives our labels a premium, elegant look that our clients absolutely love. The non-reflective surface is perfect for luxury packaging."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className={`testimonial-card-items ${style}`}>
-            <div className="testimonial-image">
-              <img src="assets/img/testimonial/client-3.png" alt="img" />
-            </div>
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Robin T. Peckham<span>/ Developer</span>
+                    Deepak Agarwal <span>/FMCG Packaging Head</span>
                   </h5>
                 </div>
               </div>
               <p>
-                We denounce with righteous indignation and dislike men who are
-                so beguiled demoralized by the charms of pleasure of the moment
+                "We switched to Ayush Marketing's thermal CTP plates and noticed immediate improvements in print consistency and reduced downtime. Their technical support is excellent."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className={`testimonial-card-items ${style}`}>
-            <div className="testimonial-image">
-              <img src="assets/img/testimonial/client-2.png" alt="img" />
-            </div>
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Michael M. Griffin <span>/CO Founder</span>
+                    Meera Nair <span>/Pharmaceutical Packaging</span>
                   </h5>
                 </div>
               </div>
               <p>
-                We denounce with righteous indignation and dislike men who are
-                so beguiled demoralized by the charms of pleasure of the moment
+                "The anti-fog BOPP film is perfect for our fresh food packaging. It maintains excellent visibility while keeping products fresh. Ayush Marketing understands our industry needs perfectly."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className={`testimonial-card-items ${style}`}>
-            <div className="testimonial-image">
-              <img src="assets/img/testimonial/client-3.png" alt="img" />
-            </div>
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Robin T. Peckham<span>/ Developer</span>
+                    Sanjay Verma <span>/Commercial Printer</span>
                   </h5>
                 </div>
               </div>
               <p>
-                We denounce with righteous indignation and dislike men who are
-                so beguiled demoralized by the charms of pleasure of the moment
+                "The Fujifilm Superia CTP plates supplied by Ayush Marketing have revolutionized our printing quality. The dot reproduction is flawless and press runs are smooth."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -233,145 +172,85 @@ export const TestimonialSlider3 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
-                  Michael M. Griffin / <span>CO Founder</span>
+                  Ananya Gupta / <span>Creative Director</span>
                 </h5>
               </div>
             </div>
             <p>
-              “ we denounce with right indignation and dislike men who are so
-              beguile and demoralized by the charms of pleasure of the moment,
-              so blinded by desire, that they cannot foresee “
+              "Ayush Marketing's metalized BOPP film adds a stunning metallic finish to our luxury packaging projects. It elevates our brand presentations significantly."
             </p>
-            <div className="star">
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
-                  Michael M. Griffin / <span>CO Founder</span>
+                  Ravi Desai / <span>Book Publisher</span>
                 </h5>
               </div>
             </div>
             <p>
-              “ we denounce with right indignation and dislike men who are so
-              beguile and demoralized by the charms of pleasure of the moment,
-              so blinded by desire, that they cannot foresee “
+              "We use Ayush Marketing's lamination films for our premium book covers. The scratch resistance and glossy finish keep our books looking new for years."
             </p>
-            <div className="star">
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
-                  Michael M. Griffin / <span>CO Founder</span>
+                  Neha Joshi / <span>Cosmetic Brand Owner</span>
                 </h5>
               </div>
             </div>
             <p>
-              “ we denounce with right indignation and dislike men who are so
-              beguile and demoralized by the charms of pleasure of the moment,
-              so blinded by desire, that they cannot foresee “
+              "The white opaque BOPP film is perfect for our cosmetic packaging. It provides a clean, solid background that makes our branding stand out beautifully."
             </p>
-            <div className="star">
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
-                  Michael M. Griffin / <span>CO Founder</span>
+                  Suresh Menon / <span>Industrial Packaging Specialist</span>
                 </h5>
               </div>
             </div>
             <p>
-              “ we denounce with right indignation and dislike men who are so
-              beguile and demoralized by the charms of pleasure of the moment,
-              so blinded by desire, that they cannot foresee “
+              "For industrial packaging, Ayush Marketing's BOPP films offer unmatched durability and chemical resistance. Our products stay protected during transport and storage."
             </p>
-            <div className="star">
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
-                  Michael M. Griffin / <span>CO Founder</span>
+                  Kavita Krishnan / <span>Marketing Manager</span>
                 </h5>
               </div>
             </div>
             <p>
-              “ we denounce with right indignation and dislike men who are so
-              beguile and demoralized by the charms of pleasure of the moment,
-              so blinded by desire, that they cannot foresee “
+              "Their double layer CTP plates have reduced our plate changing frequency by 40%. The extended press life saves us both time and money."
             </p>
-            <div className="star">
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
-                  Michael M. Griffin / <span>CO Founder</span>
+                  Mohit Arora / <span>Printing Consultant</span>
                 </h5>
               </div>
             </div>
             <p>
-              “ we denounce with right indignation and dislike men who are so
-              beguile and demoralized by the charms of pleasure of the moment,
-              so blinded by desire, that they cannot foresee “
+              "I recommend Ayush Marketing to all my printing clients. Their CTCP plates combine affordability with professional-grade quality that delivers consistent results."
             </p>
-            <div className="star">
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-              <i className="fas fa-star" />
-            </div>
           </div>
         </SwiperSlide>
       </div>
@@ -393,24 +272,15 @@ export const TestimonialSlider4 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Louis K. Peters <span>/CEO &amp; Founder</span>
+                    Pankaj Tiwari <span>/CEO, Print Solutions</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "Ayush Marketing has been our trusted partner for lamination films and CTP plates for over 5 years. Their quality standards are consistently excellent."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -418,27 +288,15 @@ export const TestimonialSlider4 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-4.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Michael B. Camara <span>/Designer</span>
+                    Ritu Sharma <span>/Packaging Designer</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "The heat sealable BOPP film from Ayush Marketing works perfectly for our food packaging line. The sealing is strong and consistent every time."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -446,27 +304,15 @@ export const TestimonialSlider4 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-5.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Gary D. Gallegos <span>/Business man</span>
+                    Alok Gupta <span>/Business Owner</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "Their competitive pricing and timely delivery make Ayush Marketing our preferred supplier for all printing and packaging materials."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -474,27 +320,15 @@ export const TestimonialSlider4 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-6.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Steven D. Owens <span>/Manager</span>
+                    Sneha Reddy <span>/Production Manager</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "The glossy BOPP film gives our brochures and catalogs a professional, high-end look. Our clients always compliment the print quality."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -502,24 +336,15 @@ export const TestimonialSlider4 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Louis K. Peters <span>/CEO &amp; Founder</span>
+                    Vijay Kumar <span>/Industrial Buyer</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "Ayush Marketing's eco-friendly BOPP films help us meet our sustainability goals while maintaining superior packaging quality."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -527,27 +352,15 @@ export const TestimonialSlider4 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-4.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Michael B. Camara <span>/Designer</span>
+                    Divya Patel <span>/Creative Head</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "We love the crystal clear finish of Ayush Marketing's lamination films. They make our promotional materials look vibrant and professional."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -555,27 +368,15 @@ export const TestimonialSlider4 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-5.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Gary D. Gallegos <span>/Business man</span>
+                    Harish Singh <span>/Printing Supervisor</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "The Orient NexGen CTP plates from Ayush Marketing give us exceptional ink-water balance and print consistency across all our machines."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -583,27 +384,15 @@ export const TestimonialSlider4 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-6.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Steven D. Owens <span>/Manager</span>
+                    Manisha Kaur <span>/Label Designer</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "For our sticker and label business, Ayush Marketing's BOPP films provide the perfect balance of adhesion, clarity, and durability."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -623,27 +412,15 @@ export const TestimonialSlider5 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-7.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Patrick J. Palmer <span>/ Developer</span>
+                    Ranjit Nair <span>/Developer</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "Ayush Marketing's comprehensive product range and technical expertise make them the go-to supplier for all our packaging needs."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -651,27 +428,15 @@ export const TestimonialSlider5 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-8.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Todd C. Keller <span>/CEO &amp; Founder</span>
+                    Jyoti Verma <span>/CEO &amp; Founder</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "The quality of their double layer CTP plates has significantly extended our press runs, reducing costs and increasing efficiency."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -679,27 +444,15 @@ export const TestimonialSlider5 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-9.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Shane D. Ryan <span>/Manager</span>
+                    Arun Pandey <span>/Manager</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "We've been using Ayush Marketing's products for our magazine printing. The results are consistently impressive and our readers notice the quality."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -707,27 +460,15 @@ export const TestimonialSlider5 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-10.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    John F. Smith <span>/Designer</span>
+                    Priyanka Rao <span>/Designer</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "The metalized BOPP film has added a premium feel to our festive packaging collections. Sales have increased significantly since switching."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -735,27 +476,15 @@ export const TestimonialSlider5 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-7.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Patrick J. Palmer <span>/ Developer</span>
+                    Shailesh Thakur <span>/Printing Director</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "Ayush Marketing's commitment to quality and customer service sets them apart. They always deliver on time with the right specifications."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -763,27 +492,15 @@ export const TestimonialSlider5 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-8.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Todd C. Keller <span>/CEO &amp; Founder</span>
+                    Reema Jain <span>/Packaging Consultant</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "For pharmaceutical packaging, the quality standards are critical. Ayush Marketing's films meet all our regulatory requirements with ease."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -791,27 +508,15 @@ export const TestimonialSlider5 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-9.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    Shane D. Ryan <span>/Manager</span>
+                    Kiran Bhatia <span>/FMCG Executive</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "The cost-effectiveness of Ayush Marketing's CTCP plates has improved our profit margins significantly without compromising on print quality."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -819,27 +524,15 @@ export const TestimonialSlider5 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img
-                  src="assets/img/testimonial/client-10.png"
-                  alt="author-img"
-                />
                 <div className="content">
                   <h5>
-                    John F. Smith <span>/Designer</span>
+                    Naveen Reddy <span>/Print Technician</span>
                   </h5>
                 </div>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus error sit voluptatem
-                accusanti doloremque laudantium, totam rem aperiame
+                "I've worked with many suppliers, but Ayush Marketing's technical support and product quality are unmatched in the industry."
               </p>
-              <div className="star">
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-                <i className="fas fa-star" />
-              </div>
             </div>
           </div>
         </SwiperSlide>
@@ -950,70 +643,50 @@ export const TestiContentSlider = () => {
         <SwiperSlide className="swiper-slide">
           <div className="content">
             <h3>
-              Michael M. Griffin <span>/ CEO &amp; Founder</span>
+              Ananya Gupta <span>/ CEO &amp; Founder, PrintWorks</span>
             </h3>
             <h4>
-              Sed ut perspiciatis unde omnis iste natus error voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit
+              "Ayush Marketing has been instrumental in transforming our packaging business. Their BOPP lamination films and CTP plates have helped us deliver superior quality to our clients. The crystal clear finish and durability of their products have made a significant impact on our brand reputation."
             </h4>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="content">
             <h3>
-              Michael M. Griffin <span>/ CEO &amp; Founder</span>
+              Vikram Singh <span>/ Production Head, PackTech</span>
             </h3>
             <h4>
-              Sed ut perspiciatis unde omnis iste natus error voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit
+              "We've been using Ayush Marketing's thermal CTP plates for over three years now. The consistency in print quality, extended press life, and excellent dot reproduction have helped us achieve outstanding results for our commercial printing projects."
             </h4>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="content">
             <h3>
-              Michael M. Griffin <span>/ CEO &amp; Founder</span>
+              Priya Reddy <span>/ Packaging Consultant</span>
             </h3>
             <h4>
-              Sed ut perspiciatis unde omnis iste natus error voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit
+              "What sets Ayush Marketing apart is their deep understanding of the printing and packaging industry. From gloss BOPP films for premium labels to anti-fog films for food packaging, they provide solutions that perfectly match our requirements."
             </h4>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="content">
             <h3>
-              Michael M. Griffin <span>/ CEO &amp; Founder</span>
+              Rajesh Kumar <span>/ CEO, Digital Print India</span>
             </h3>
             <h4>
-              Sed ut perspiciatis unde omnis iste natus error voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit
+              "The double layer CTP plates from Ayush Marketing have revolutionized our high-volume printing operations. The plates deliver exceptional performance, even during extended print runs, maintaining image quality and stability throughout."
             </h4>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="content">
             <h3>
-              Michael M. Griffin <span>/ CEO &amp; Founder</span>
+              Meera Nair <span>/ Packaging Manager, FreshFoods</span>
             </h3>
             <h4>
-              Sed ut perspiciatis unde omnis iste natus error voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit
+              "Ayush Marketing's heat sealable and anti-fog BOPP films have been game-changers for our food packaging line. They offer the perfect combination of functionality, clarity, and eco-friendliness that our customers demand."
             </h4>
           </div>
         </SwiperSlide>

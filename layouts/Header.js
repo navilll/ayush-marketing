@@ -61,7 +61,7 @@ const Menu = ({ menu }) => {
             <Link href="about">About</Link>
           </li>
           <li>
-            <Link href="service-details">
+            <Link href="products">
               Products
               <i className="fas fa-angle-down" />
             </Link>
@@ -71,7 +71,7 @@ const Menu = ({ menu }) => {
 
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="assets/img/home/ctp.webp" alt="img" />
+                      <img src="/assets/img/home/ctp.webp" alt="img" />
                       <div className="demo-button">
                         <Link href="/" className="theme-btn">
                           View Product Page
@@ -88,7 +88,7 @@ const Menu = ({ menu }) => {
                   </div>
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="assets/img/home/double-layered-ctp.webp" alt="img" />
+                      <img src="/assets/img/home/double-layered-ctp.webp" alt="img" />
                       <div className="demo-button">
                         <Link href="/" className="theme-btn">
                           View Product Page
@@ -104,7 +104,7 @@ const Menu = ({ menu }) => {
                   </div>
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="assets/img/home/bopp.jpg" alt="img" />
+                      <img src="/assets/img/home/bopp.jpg" alt="img" />
                       <div className="demo-button">
                         <Link href="/" className="theme-btn">
                           View Product Page
@@ -120,7 +120,7 @@ const Menu = ({ menu }) => {
                   </div>
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="assets/img/home/ctp.webp" alt="img" />
+                      <img src="/assets/img/home/ctp.webp" alt="img" />
                       <div className="demo-button">
                         <Link href="/" className="theme-btn">
                           View Product Page
@@ -136,7 +136,7 @@ const Menu = ({ menu }) => {
                   </div>
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="assets/img/home/ctp.webp" alt="img" />
+                      <img src="/assets/img/home/ctp.webp" alt="img" />
                       <div className="demo-button">
                         <Link href="/" className="theme-btn">
                           View Product Page
@@ -152,7 +152,7 @@ const Menu = ({ menu }) => {
                   </div>
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="assets/img/home/ctp.webp" alt="img" />
+                      <img src="/assets/img/home/ctp.webp" alt="img" />
                       <div className="demo-button">
                         <Link href="/" className="theme-btn">
                           View Product Page
@@ -317,7 +317,7 @@ const MobileMenu = ({ menu }) => {
                     <Link href="service">Services</Link>
                   </li>
                   <li>
-                    <Link href="service-details">Service Details</Link>
+                    <Link href="products">Service Details</Link>
                   </li>
                 </ul>
                 <a
@@ -436,7 +436,7 @@ const Sidebar = ({ sidebarToggle, close, menu }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo.webp" alt="logo-img" className="logo-1" />
+                    <img src="/assets/img/logo.webp" alt="logo-img" className="logo-1" />
                   </Link>
                 </div>
                 <div className="offcanvas__close" onClick={() => close()}>
@@ -537,7 +537,7 @@ const HeaderMain = ({ menu }) => {
                 <Link href="/">
                   <img
 
-                    src="assets/img/logo-white.webp"
+                    src="/assets/img/logo-white.webp"
                     alt="logo-img"
                     className="logo-1"
                   />
@@ -545,7 +545,7 @@ const HeaderMain = ({ menu }) => {
                 <Link href="/">
                   <img
 
-                    src="assets/img/logo.webp"
+                    src="/assets/img/logo.webp"
                     alt="logo-img"
                     className="logo-2"
                   />

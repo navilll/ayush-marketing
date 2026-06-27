@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -7,20 +8,24 @@ const Footer = () => {
         <div className="discussed-items">
           <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
             <Link href="/">
-              <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+              <Image src="/assets/img/logo-white.webp" alt="Ayush Marketing" width={270} height={70} />
             </Link>
           </div>
+
           <div className="discussed-content wow fadeInUp" data-wow-delay=".5s">
             <h2>
-              Let’s Discussed About <span>Your Projects</span>
+              Looking for <span>Premium Printing Solutions?</span>
             </h2>
-            <Link href="contact" className="theme-btn hover-white">
-              Get Started <i className="far fa-arrow-right" />
+
+            <Link href="/contact" className="theme-btn hover-white">
+              Contact Us <i className="far fa-arrow-right" />
             </Link>
           </div>
         </div>
+
         <div className="footer-widgets-wrapper">
           <div className="row">
+            {/* About */}
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay=".2s"
@@ -29,52 +34,63 @@ const Footer = () => {
                 <div className="widget-head">
                   <h4>About Us</h4>
                 </div>
+
                 <div className="footer-content">
                   <p>
-                    Sed perspiciatis unde omnis natus doloremque laudantium
-                    totae
+                    Ayush Marketing is a trusted supplier of premium BOPP
+                    Lamination Films, CTP Plates, CTCP Plates, and Double Layer
+                    CTP Plates for the printing and packaging industry.
                   </p>
+
                   <div className="social-icon d-flex align-items-center">
                     <a href="#">
                       <i className="fab fa-facebook-f" />
                     </a>
                     <a href="#">
-                      <i className="fab fa-twitter" />
+                      <i className="fab fa-instagram" />
                     </a>
                     <a href="#">
-                      <i className="fab fa-vimeo-v" />
+                      <i className="fab fa-linkedin-in" />
                     </a>
                     <a href="#">
-                      <i className="fab fa-pinterest-p" />
+                      <i className="fab fa-youtube" />
                     </a>
                   </div>
                 </div>
               </div>
             </div>
+
+            {/* Quick Links */}
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
               data-wow-delay=".4s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h4>Quick Link</h4>
+                  <h4>Quick Links</h4>
                 </div>
+
                 <ul className="list-items">
                   <li>
-                    <Link href="service-details">Popular Services</Link>
+                    <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link href="team-details">Team Member</Link>
+                    <Link href="/about">About</Link>
                   </li>
                   <li>
-                    <Link href="contact">Privacy &amp; Setting</Link>
+                    <Link href="/products">Products</Link>
                   </li>
                   <li>
-                    <Link href="pricing">Pricing Package</Link>
+                    <Link href="/blogs">Blogs</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
             </div>
+
+            {/* Contact */}
             <div
               className="col-xl-3 col-lg-4 col-md-6 ps-lg-1 wow fadeInUp"
               data-wow-delay=".6s"
@@ -83,82 +99,95 @@ const Footer = () => {
                 <div className="widget-head">
                   <h4>Get In Touch</h4>
                 </div>
+
                 <div className="contact-info-area">
                   <div className="contact-items">
                     <div className="icon">
                       <i className="fas fa-map-marker-alt" />
                     </div>
+
                     <div className="content">
                       <p>
-                        55 Main Street, 2nd block <br />
-                        Malborne, Australia
+                        Your Business Address <br />
+                        India
                       </p>
                     </div>
                   </div>
+
                   <div className="contact-items">
                     <div className="icon">
                       <i className="fas fa-envelope" />
                     </div>
+
                     <div className="content">
-                      <a href="mailto:info@example.com" className="link">
-                        info@example.com
+                      <a
+                        href="mailto:info@ayushmarketing.com"
+                        className="link"
+                      >
+                        info@ayushmarketing.com
                       </a>
                     </div>
                   </div>
+
                   <div className="contact-items">
                     <div className="icon">
                       <i className="fas fa-phone-alt" />
                     </div>
+
                     <div className="content">
                       <h4>
-                        <a href="tel:00012345688">+000 (123) 456 88</a>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
                       </h4>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
+            {/* Products */}
             <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay=".8s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h4>Recent News</h4>
+                  <h4>Our Products</h4>
                 </div>
+
                 <div className="recent-post-area">
                   <div className="recent-post-items">
                     <div
                       className="thumb bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/news/pp1.png")',
+                        backgroundImage:
+                          'url("/assets/img/products/bopp-film.jpg")',
                       }}
                     />
+
                     <div className="content">
-                      <ul className="post-date">
-                        <li>Nov 25, 2024</li>
-                      </ul>
                       <h6>
-                        <Link href="news-details">
-                          How achieve more <br /> your nine to five
+                        <Link href="/products">
+                          BOPP <br />
+                          Lamination Film
                         </Link>
                       </h6>
                     </div>
                   </div>
+
                   <div className="recent-post-items mb-0">
                     <div
                       className="thumb bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/news/pp2.png")',
+                        backgroundImage:
+                          'url("/assets/img/products/ctp-plate.jpg")',
                       }}
                     />
+
                     <div className="content">
-                      <ul className="post-date">
-                        <li>Nov 29, 2024</li>
-                      </ul>
                       <h6>
-                        <Link href="news-details">
-                          Discover a better way of company.
+                        <Link href="/products">
+                          CTP, CTCP & <br />
+                          Double Layer Plates
                         </Link>
                       </h6>
                     </div>
@@ -168,20 +197,22 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
         <div className="footer-bottom">
           <div className="container">
             <div className="footer-wrapper d-flex align-items-center justify-content-between">
               <ul className="footer-menu wow fadeInUp" data-wow-delay=".2s">
                 <li>
-                  <Link href="faq">FAQs</Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="about">Company</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li>
-                  <Link href="contact">Privacy</Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </ul>
+
               <a
                 href="#"
                 id="scrollUp"
@@ -190,8 +221,10 @@ const Footer = () => {
               >
                 <i className="far fa-angle-double-up" />
               </a>
+
               <p className="wow fadeInUp" data-wow-delay=".6s">
-                © <Link href="/">2024</Link> All Rights Reserved
+                © <Link href="/">2026</Link> Ayush Marketing. All Rights
+                Reserved.
               </p>
             </div>
           </div>
