@@ -18,9 +18,9 @@ const Menu = ({ menu }) => {
     ? menu
     : [
       { id: 1, href: "about", title: "About" },
-      { id: 2, href: "services", title: "Services" },
-      { id: 3, href: "team", title: "Team" },
+      { id: 2, href: "products", title: "Products" },
       { id: 4, href: "blog", title: "Blog" },
+      { id: 3, href: "contact", title: "Contact" },
     ];
   return (
     <Fragment>
@@ -36,26 +36,6 @@ const Menu = ({ menu }) => {
               Home
               <i className="fas fa-angle-down" />
             </Link>
-            <ul className="submenu">
-              <li>
-                <Link href="/">Home 01</Link>
-              </li>
-              <li>
-                <Link href="/index-2">Home 02</Link>
-              </li>
-              <li>
-                <Link href="/index-3">Home 03</Link>
-              </li>
-              <li>
-                <Link href="/index-4">Home 04</Link>
-              </li>
-              <li>
-                <Link href="/index-5">Home 05</Link>
-              </li>
-              <li>
-                <Link href="/index-6">Home 06</Link>
-              </li>
-            </ul>
           </li>
           <li>
             <Link href="/about">About</Link>
@@ -71,160 +51,115 @@ const Menu = ({ menu }) => {
 
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="/assets/img/home/ctp.webp" alt="img" />
+                      <img src="/assets/img/home/ctp.webp" alt="Thermal CTP Plates" />
                       <div className="demo-button">
-                        <Link href="/" className="theme-btn">
+                        <Link href="/products" className="theme-btn">
                           View Product Page
                         </Link>
-                        <Link href="index-one-page" className="theme-btn">
+                        <Link href="/products/thermal-ctp-plates" className="theme-btn">
                           View Details
                         </Link>
                       </div>
                     </div>
                     <div className="homemenu-content text-center">
-                      <h4 className="homemenu-title">CTP & CTCP
-                        Plates</h4>
+                      <h4 className="homemenu-title">Thermal CTP Plates</h4>
                     </div>
                   </div>
+
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="/assets/img/home/double-layered-ctp.webp" alt="img" />
+                      <img src="/assets/img/home/double-layered-ctp.webp" alt="Double Layer CTP Plates" />
                       <div className="demo-button">
-                        <Link href="/" className="theme-btn">
+                        <Link href="/products" className="theme-btn">
                           View Product Page
                         </Link>
-                        <Link href="index-one-page" className="theme-btn">
+                        <Link href="/products/double-layer-ctp-plates" className="theme-btn">
                           View Details
                         </Link>
                       </div>
                     </div>
                     <div className="homemenu-content text-center">
-                      <h4 className="homemenu-title">Double-Layered CTP Plates</h4>
+                      <h4 className="homemenu-title">Double Layer CTP Plates</h4>
                     </div>
                   </div>
+
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="/assets/img/home/bopp.jpg" alt="img" />
+                      <img src="/assets/img/home/ctp.webp" alt="CTCP Plates" />
                       <div className="demo-button">
-                        <Link href="/" className="theme-btn">
+                        <Link href="/products" className="theme-btn">
                           View Product Page
                         </Link>
-                        <Link href="index-one-page" className="theme-btn">
+                        <Link href="/products/ctcp-plates" className="theme-btn">
                           View Details
                         </Link>
                       </div>
                     </div>
                     <div className="homemenu-content text-center">
-                      <h4 className="homemenu-title">BOPP Lamination Films</h4>
+                      <h4 className="homemenu-title">CTCP Plates</h4>
                     </div>
                   </div>
+
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="/assets/img/home/ctp.webp" alt="img" />
+                      <img src="/assets/img/products/glossy.jpg" alt="Gloss BOPP Lamination Film" />
                       <div className="demo-button">
-                        <Link href="/" className="theme-btn">
+                        <Link href="/products" className="theme-btn">
                           View Product Page
                         </Link>
-                        <Link href="index-one-page" className="theme-btn">
+                        <Link href="/products/gloss-bopp-lamination-film" className="theme-btn">
                           View Details
                         </Link>
                       </div>
                     </div>
                     <div className="homemenu-content text-center">
-                      <h4 className="homemenu-title">BOPP Lamination Films</h4>
+                      <h4 className="homemenu-title">Gloss BOPP Film</h4>
                     </div>
                   </div>
+
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="/assets/img/home/ctp.webp" alt="img" />
+                      <img src="/assets/img/products/matte.jpg" alt="Matte BOPP Lamination Film" />
                       <div className="demo-button">
-                        <Link href="/" className="theme-btn">
+                        <Link href="/products" className="theme-btn">
                           View Product Page
                         </Link>
-                        <Link href="index-one-page" className="theme-btn">
+                        <Link href="/products/matte-bopp-lamination-film" className="theme-btn">
                           View Details
                         </Link>
                       </div>
                     </div>
                     <div className="homemenu-content text-center">
-                      <h4 className="homemenu-title">BOPP Lamination Films</h4>
+                      <h4 className="homemenu-title">Matte BOPP Film</h4>
                     </div>
                   </div>
+
                   <div className="col-xl-2 homemenu">
                     <div className="homemenu-thumb">
-                      <img src="/assets/img/home/ctp.webp" alt="img" />
+                      <img src="/assets/img/products/metalized.jpg" alt="Metalized BOPP Film" />
                       <div className="demo-button">
-                        <Link href="/" className="theme-btn">
+                        <Link href="/products" className="theme-btn">
                           View Product Page
                         </Link>
-                        <Link href="index-one-page" className="theme-btn">
+                        <Link href="/products/metalized-bopp-film" className="theme-btn">
                           View Details
                         </Link>
                       </div>
                     </div>
                     <div className="homemenu-content text-center">
-                      <h4 className="homemenu-title">BOPP Lamination Films</h4>
+                      <h4 className="homemenu-title">Metalized BOPP Film</h4>
                     </div>
                   </div>
+
                 </div>
               </li>
             </ul>
           </li>
-          <li className="has-dropdown">
-            <Link href="/news">
-              Pages
-              <i className="fas fa-angle-down" />
-            </Link>
-            <ul className="submenu">
-              <li className="has-dropdown">
-                <Link href="/project-details">
-                  Projects
-                  <i className="fas fa-angle-down" />
-                </Link>
-                <ul className="submenu">
-                  <li>
-                    <Link href="/project">Projects</Link>
-                  </li>
-                  <li>
-                    <Link href="/project-details">Project Details</Link>
-                  </li>
-                </ul>
-              </li>
-              <li className="has-dropdown">
-                <Link href="/team-details">
-                  Team
-                  <i className="fas fa-angle-down" />
-                </Link>
-                <ul className="submenu">
-                  <li>
-                    <Link href="/team">Team</Link>
-                  </li>
-                  <li>
-                    <Link href="/team-details">Team Details</Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link href="/pricing">Pricing Table</Link>
-              </li>
-              <li>
-                <Link href="/404">404 Page</Link>
-              </li>
-            </ul>
-          </li>
+
           <li>
-            <Link href="/news">
-              Blog
-              <i className="fas fa-angle-down" />
+            <Link href="/blog">
+              Blog & News
             </Link>
-            <ul className="submenu">
-              <li>
-                <Link href="/news">Blog </Link>
-              </li>
-              <li>
-                <Link href="/news-details">Blog Details</Link>
-              </li>
-            </ul>
           </li>
           <li>
             <Link href="/contact">Contact</Link>
@@ -250,9 +185,9 @@ const MobileMenu = ({ menu }) => {
     ? menu
     : [
       { id: 1, href: "about", title: "About" },
-      { id: 2, href: "services", title: "Services" },
-      { id: 3, href: "team", title: "Team" },
+      { id: 2, href: "products", title: "Products" },
       { id: 4, href: "blog", title: "Blog" },
+      { id: 3, href: "contact", title: "Contact" },
     ];
   return (
     <div className="mobile-menu fix mb-3 mean-container d-block d-xl-none">
@@ -275,26 +210,6 @@ const MobileMenu = ({ menu }) => {
                 Home
                 <i className="fas fa-angle-down" />
               </a>
-              <ul className="submenu" style={activeLi("home")}>
-                <li>
-                  <Link href="/">Home 01</Link>
-                </li>
-                <li>
-                  <Link href="/index-2">Home 02</Link>
-                </li>
-                <li>
-                  <Link href="/index-3">Home 03</Link>
-                </li>
-                <li>
-                  <Link href="/index-4">Home 04</Link>
-                </li>
-                <li>
-                  <Link href="/index-5">Home 05</Link>
-                </li>
-                <li>
-                  <Link href="/index-6">Home 06</Link>
-                </li>
-              </ul>
               <a
                 className="mean-expand"
                 href="#"
@@ -308,105 +223,10 @@ const MobileMenu = ({ menu }) => {
                 <Link href="/about">About</Link>
               </li>
               <li>
-                <a href="#" onClick={() => activeMenuSet("Services")}>
-                  Services
-                  <i className="fas fa-angle-down" />
-                </a>
-                <ul className="submenu" style={activeLi("Services")}>
-                  <li>
-                    <Link href="/service">Services</Link>
-                  </li>
-                  <li>
-                    <Link href="/products">Service Details</Link>
-                  </li>
-                </ul>
-                <a
-                  className="mean-expand"
-                  href="#"
-                  onClick={() => activeMenuSet("Services")}
-                >
-                  <i className="far fa-plus" />
-                </a>
-              </li>
-              <li className="has-dropdown">
-                <a href="#" onClick={() => activeMenuSet("Pages")}>
-                  Pages
-                  <i className="fas fa-angle-down" />
-                </a>
-                <ul className="submenu" style={activeLi("Pages")}>
-                  <li className="has-dropdown">
-                    <a href="#" onClick={() => multiMenuSet("Projects")}>
-                      Projects
-                      <i className="fas fa-angle-down" />
-                    </a>
-                    <ul
-                      className="submenu"
-                      style={multiMenuActiveLi("Projects")}
-                    >
-                      <li>
-                        <Link href="/project">Projects</Link>
-                      </li>
-                      <li>
-                        <Link href="/project-details">Project Details</Link>
-                      </li>
-                    </ul>
-                    <a
-                      className="mean-expand"
-                      href="#"
-                      onClick={() => multiMenuSet("Projects")}
-                    >
-                      <i className="far fa-plus" />
-                    </a>
-                  </li>
-                  <li className="has-dropdown">
-                    <a href="#" onClick={() => multiMenuSet("Team")}>
-                      Team
-                      <i className="fas fa-angle-down" />
-                    </a>
-                    <ul className="submenu" style={multiMenuActiveLi("Team")}>
-                      <li>
-                        <Link href="/team">Team</Link>
-                      </li>
-                      <li>
-                        <Link href="/team-details">Team Details</Link>
-                      </li>
-                    </ul>
-                    <a
-                      className="mean-expand"
-                      href="#"
-                      onClick={() => multiMenuSet("Team")}
-                    >
-                      <i className="far fa-plus" />
-                    </a>
-                  </li>
-                  <li>
-                    <Link href="/pricing">Pricing Table</Link>
-                  </li>
-                  <li>
-                    <Link href="/404">404 Page</Link>
-                  </li>
-                </ul>
-                <a
-                  className="mean-expand"
-                  href="#"
-                  onClick={() => activeMenuSet("Pages")}
-                >
-                  <i className="far fa-plus" />
-                </a>
-              </li>
-              <li>
                 <a href="#" onClick={() => activeMenuSet("Blog")}>
-                  Blog
+                  Blog & News
                   <i className="fas fa-angle-down" />
                 </a>
-                <ul className="submenu" style={activeLi("Blog")}>
-                  <li>
-                    <Link href="/news">Blog </Link>
-                  </li>
-                  <li>
-                    <Link href="/news-details">Blog Details</Link>
-                  </li>
-                </ul>
                 <a
                   className="mean-expand"
                   href="#"
@@ -462,7 +282,9 @@ const Sidebar = ({ sidebarToggle, close, menu }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                        GF, No. 64, Industrial Area,
+                        7th Cross Road, BTM Layout 2nd Stage,
+                        Bengaluru, Karnataka - 560076
                       </a>
                     </div>
                   </li>
@@ -471,7 +293,7 @@ const Sidebar = ({ sidebarToggle, close, menu }) => {
                       <i className="fal fa-envelope" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <a href="mailto:info@aayushmarketing.com">info@aayushmarketing.com</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -489,7 +311,7 @@ const Sidebar = ({ sidebarToggle, close, menu }) => {
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+11002345909</a>
+                      <a href="tel:+91 9945160901">+91 99451 60901</a>
                     </div>
                   </li>
                 </ul>
@@ -566,7 +388,7 @@ const HeaderMain = ({ menu }) => {
                   <div className="content">
                     <p>Make A Call</p>
                     <h4>
-                      <a href="tel:+00012345688">+000 (123) 456 88</a>
+                      <a href="tel:+91 9945160901">+91 9945160901</a>
                     </h4>
                   </div>
                 </div>

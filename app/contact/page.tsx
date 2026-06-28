@@ -42,8 +42,8 @@ const page = () => {
                     data-wow-delay=".3s"
                   >
                     <li>
-                      <a href="mailto:aayushmarketingblr@gmail.com">
-                        aayushmarketingblr@gmail.com
+                      <a href="mailto:info@aayushmarketing.com">
+                        info@aayushmarketing.com
                       </a>
                     </li>
 

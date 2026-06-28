@@ -70,26 +70,121 @@
 }
 
 .breadcrumb-wrapper {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    padding: 140px 0 120px;
+    background: linear-gradient(135deg, #111827 0%, #1f2937 45%, #5C30FD 100%);
 }
 
-.breadcrumb-wrapper::before {
-  content: "";
-  position: absolute;
-  inset: -20px;
-  background-image: url("../public/assets/img/bread.png");
-  background-size: cover;
-  background-position: center;
-  filter:brightness(0.5);
-  z-index: 0;
+.breadcrumb-content {
+    position: relative;
+    z-index: 5;
+    max-width: 700px;
 }
 
-.breadcrumb-wrapper .container {
-  position: relative;
-  z-index: 1;
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-.breadcrumb-items.wow.fadeInUp {
-color: #fff;
+.breadcrumb-list a {
+    color: rgba(255,255,255,.85);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.breadcrumb-list a:hover {
+    color: #fff;
+}
+
+.breadcrumb-list span {
+    color: rgba(255,255,255,.7);
+}
+
+.breadcrumb-list .active {
+    color: #fff;
+    font-weight: 600;
+}
+
+.breadcrumb-content h1 {
+    color: #fff;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.breadcrumb-bg-text {
+    position: absolute;
+    left: 0;
+    top: -65px;
+    font-size: 130px;
+    font-weight: 900;
+    color: rgba(255,255,255,.05);
+    letter-spacing: 8px;
+    white-space: nowrap;
+    user-select: none;
+    z-index: -1;
+}
+
+/* Decorative Shapes */
+
+.shape-one{
+    position:absolute;
+    width:520px;
+    height:520px;
+    background:#5C30FD;
+    border-radius:50%;
+    top:-220px;
+    right:-120px;
+    opacity:.18;
+    filter:blur(10px);
+}
+
+.shape-two{
+    position:absolute;
+    width:320px;
+    height:320px;
+    border:2px solid rgba(255,255,255,.08);
+    border-radius:40px;
+    transform:rotate(45deg);
+    bottom:-180px;
+    left:-100px;
+}
+
+.shape-three{
+    position:absolute;
+    width:450px;
+    height:450px;
+    background:radial-gradient(circle,
+        rgba(255,255,255,.10) 0%,
+        transparent 70%);
+    right:25%;
+    top:-120px;
+}
+
+@media(max-width:991px){
+
+    .breadcrumb-wrapper{
+        padding:100px 0 80px;
+    }
+
+    .breadcrumb-content h1{
+        font-size:42px;
+    }
+
+    .breadcrumb-bg-text{
+        font-size:70px;
+        top:-20px;
+    }
+
+}
+
+.breadcrumb-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding: 140px 0 120px;
+    background: linear-gradient(135deg, #111827 0%, #1f2937 45%, #5C30FD 100%);
+    border-bottom-right-radius: 80px;
 }

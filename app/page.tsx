@@ -545,7 +545,7 @@ const page = () => {
         </div>
       </section>
 
-      {/* Products Showcase (replacing Case Study) */}
+      {/* Blog Showcase (replacing Case Study) */}
       <section className="case-study-section fix section-padding theme-bg">
         <div className="left-shape">
           <img src="assets/img/case-study/left-shape.png" alt="shape-img" />
@@ -558,15 +558,15 @@ const page = () => {
             <div className="section-title">
               <span className="sub-content wow fadeInUp">
                 <img src="assets/img/bale.png" alt="img" />
-                Featured Products
+                Latest Insights
               </span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                Explore Our Most Popular <br />
-                Printing & Packaging Materials
+                Explore Our Latest <br />
+                Printing & Packaging Articles
               </h2>
             </div>
-            <Link href="products" className="theme-btn white-border">
-              View All Products
+            <Link href="/blog" className="theme-btn white-border">
+              View All Posts
             </Link>
           </div>
           <div className="row">
@@ -576,16 +576,16 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/home/bopp-lamination.jpg" alt="BOPP Lamination Film" />
+                  <img src="assets/img/news/post-1.jpg" alt="BOPP Lamination Film Guide" />
                 </div>
                 <div className="content">
-                  <p>Packaging Film</p>
+                  <p>BOPP Films</p>
                   <h3>
-                    <Link href="products">
-                      BOPP Lamination Film — GL &amp; MT Variants for Every Application
+                    <Link href="/blog/what-is-bopp-lamination-film">
+                      What Is BOPP Lamination Film and Why Does Your Packaging Need It?
                     </Link>
                   </h3>
-                  <Link className="arrow-btn" href="products">
+                  <Link className="arrow-btn" href="/blog/what-is-bopp-lamination-film">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -597,16 +597,16 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/home/ctp-plate.webp" alt="CTP Plates" />
+                  <img src="assets/img/news/post-6.jpg" alt="Thermal CTP Plates Guide" />
                 </div>
                 <div className="content">
-                  <p>Offset Printing</p>
+                  <p>CTP Plates</p>
                   <h3>
-                    <Link href="products">
-                      Positive Thermal CTP &amp; CTCP Plates for Precision Offset Printing
+                    <Link href="/blog/thermal-ctp-plates-guide">
+                      A Complete Guide to Thermal CTP Plates for Commercial Printing
                     </Link>
                   </h3>
-                  <Link className="arrow-btn" href="products">
+                  <Link className="arrow-btn" href="/blog/thermal-ctp-plates-guide">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -618,16 +618,16 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/home/double-layer.webp" alt="Double Layer CTP Plate" />
+                  <img src="assets/img/news/post-3.jpg" alt="Packaging Trends 2025" />
                 </div>
                 <div className="content">
-                  <p>High-Volume Printing</p>
+                  <p>Industry Trends</p>
                   <h3>
-                    <Link href="products">
-                      Double Layer Thermal CTP Plate — Extended Run Life for High-Volume Presses
+                    <Link href="/blog/packaging-trends-india-2025">
+                      Top Packaging Trends in India for 2025: What Printers Need to Know
                     </Link>
                   </h3>
-                  <Link className="arrow-btn" href="products">
+                  <Link className="arrow-btn" href="/blog/packaging-trends-india-2025">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>

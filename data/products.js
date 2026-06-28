@@ -218,7 +218,7 @@ export const products = [
       "Ayush Marketing's CTCP (Computer-to-Conventional Plate) plates offer an economical alternative to thermal CTP without compromising on print quality. By eliminating the need for film, CTCP technology simplifies the pre-press workflow and significantly reduces material and processing costs for medium to high-volume offset printing operations.",
     features: ["Economical", "Sharp Image Quality", "High Durability", "Faster Workflow"],
     applications: ["Offset Printing", "Newspaper Printing", "Commercial Printing", "Packaging"],
-    image: "/assets/img/home/ctp-plate.webp",
+    image: "/assets/img/home/ctp.webp",
     gallery: [
       "/assets/img/products/ctcp1.webp",
       "/assets/img/home/ctp.webp",
@@ -252,7 +252,7 @@ export const products = [
       "Ayush Marketing's Double Layer CTP Plates are built for the most demanding print environments. The advanced double-coating technology provides superior resistance to press chemicals, UV inks, and the mechanical stresses of high-speed printing, resulting in significantly extended press life and reduced plate changeover frequency.",
     features: ["Double-Layer Coating", "Extended Press Life", "Chemical Resistant", "High-Volume"],
     applications: ["High-Volume Packaging", "Newspaper Production", "Publishing", "Commercial Printing"],
-    image: "/assets/img/home/double-layer.webp",
+    image: "/assets/img/home/double-layered-ctp.webp",
     gallery: [
       "/assets/img/products/double1.webp",
       "/assets/img/home/double-layered-ctp.webp",
