@@ -41,27 +41,27 @@ const Menu = ({ menu }) => {
                 <Link href="/">Home 01</Link>
               </li>
               <li>
-                <Link href="index-2">Home 02</Link>
+                <Link href="/index-2">Home 02</Link>
               </li>
               <li>
-                <Link href="index-3">Home 03</Link>
+                <Link href="/index-3">Home 03</Link>
               </li>
               <li>
-                <Link href="index-4">Home 04</Link>
+                <Link href="/index-4">Home 04</Link>
               </li>
               <li>
-                <Link href="index-5">Home 05</Link>
+                <Link href="/index-5">Home 05</Link>
               </li>
               <li>
-                <Link href="index-6">Home 06</Link>
+                <Link href="/index-6">Home 06</Link>
               </li>
             </ul>
           </li>
           <li>
-            <Link href="about">About</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="products">
+            <Link href="/products">
               Products
               <i className="fas fa-angle-down" />
             </Link>
@@ -171,63 +171,63 @@ const Menu = ({ menu }) => {
             </ul>
           </li>
           <li className="has-dropdown">
-            <Link href="news">
+            <Link href="/news">
               Pages
               <i className="fas fa-angle-down" />
             </Link>
             <ul className="submenu">
               <li className="has-dropdown">
-                <Link href="project-details">
+                <Link href="/project-details">
                   Projects
                   <i className="fas fa-angle-down" />
                 </Link>
                 <ul className="submenu">
                   <li>
-                    <Link href="project">Projects</Link>
+                    <Link href="/project">Projects</Link>
                   </li>
                   <li>
-                    <Link href="project-details">Project Details</Link>
+                    <Link href="/project-details">Project Details</Link>
                   </li>
                 </ul>
               </li>
               <li className="has-dropdown">
-                <Link href="team-details">
+                <Link href="/team-details">
                   Team
                   <i className="fas fa-angle-down" />
                 </Link>
                 <ul className="submenu">
                   <li>
-                    <Link href="team">Team</Link>
+                    <Link href="/team">Team</Link>
                   </li>
                   <li>
-                    <Link href="team-details">Team Details</Link>
+                    <Link href="/team-details">Team Details</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link href="pricing">Pricing Table</Link>
+                <Link href="/pricing">Pricing Table</Link>
               </li>
               <li>
-                <Link href="404">404 Page</Link>
+                <Link href="/404">404 Page</Link>
               </li>
             </ul>
           </li>
           <li>
-            <Link href="news">
+            <Link href="/news">
               Blog
               <i className="fas fa-angle-down" />
             </Link>
             <ul className="submenu">
               <li>
-                <Link href="news">Blog </Link>
+                <Link href="/news">Blog </Link>
               </li>
               <li>
-                <Link href="news-details">Blog Details</Link>
+                <Link href="/news-details">Blog Details</Link>
               </li>
             </ul>
           </li>
           <li>
-            <Link href="contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
@@ -280,19 +280,19 @@ const MobileMenu = ({ menu }) => {
                   <Link href="/">Home 01</Link>
                 </li>
                 <li>
-                  <Link href="index-2">Home 02</Link>
+                  <Link href="/index-2">Home 02</Link>
                 </li>
                 <li>
-                  <Link href="index-3">Home 03</Link>
+                  <Link href="/index-3">Home 03</Link>
                 </li>
                 <li>
-                  <Link href="index-4">Home 04</Link>
+                  <Link href="/index-4">Home 04</Link>
                 </li>
                 <li>
-                  <Link href="index-5">Home 05</Link>
+                  <Link href="/index-5">Home 05</Link>
                 </li>
                 <li>
-                  <Link href="index-6">Home 06</Link>
+                  <Link href="/index-6">Home 06</Link>
                 </li>
               </ul>
               <a
@@ -314,10 +314,10 @@ const MobileMenu = ({ menu }) => {
                 </a>
                 <ul className="submenu" style={activeLi("Services")}>
                   <li>
-                    <Link href="service">Services</Link>
+                    <Link href="/service">Services</Link>
                   </li>
                   <li>
-                    <Link href="products">Service Details</Link>
+                    <Link href="/products">Service Details</Link>
                   </li>
                 </ul>
                 <a
@@ -344,10 +344,10 @@ const MobileMenu = ({ menu }) => {
                       style={multiMenuActiveLi("Projects")}
                     >
                       <li>
-                        <Link href="project">Projects</Link>
+                        <Link href="/project">Projects</Link>
                       </li>
                       <li>
-                        <Link href="project-details">Project Details</Link>
+                        <Link href="/project-details">Project Details</Link>
                       </li>
                     </ul>
                     <a
@@ -365,10 +365,10 @@ const MobileMenu = ({ menu }) => {
                     </a>
                     <ul className="submenu" style={multiMenuActiveLi("Team")}>
                       <li>
-                        <Link href="team">Team</Link>
+                        <Link href="/team">Team</Link>
                       </li>
                       <li>
-                        <Link href="team-details">Team Details</Link>
+                        <Link href="/team-details">Team Details</Link>
                       </li>
                     </ul>
                     <a
@@ -380,10 +380,10 @@ const MobileMenu = ({ menu }) => {
                     </a>
                   </li>
                   <li>
-                    <Link href="pricing">Pricing Table</Link>
+                    <Link href="/pricing">Pricing Table</Link>
                   </li>
                   <li>
-                    <Link href="404">404 Page</Link>
+                    <Link href="/404">404 Page</Link>
                   </li>
                 </ul>
                 <a
@@ -401,10 +401,10 @@ const MobileMenu = ({ menu }) => {
                 </a>
                 <ul className="submenu" style={activeLi("Blog")}>
                   <li>
-                    <Link href="news">Blog </Link>
+                    <Link href="/news">Blog </Link>
                   </li>
                   <li>
-                    <Link href="news-details">Blog Details</Link>
+                    <Link href="/news-details">Blog Details</Link>
                   </li>
                 </ul>
                 <a
