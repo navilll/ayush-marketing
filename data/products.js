@@ -12,12 +12,12 @@ export const products = [
       "Ayush Marketing's Gloss BOPP Lamination Film is engineered to deliver an outstanding high-gloss finish that dramatically enhances the visual appeal of printed materials and packaging. The film's crystal-clear surface amplifies color saturation, making graphics and text appear sharper and more vibrant. Its robust moisture and chemical resistance ensures that packaged products remain protected even in demanding storage and handling conditions.",
     features: ["High Gloss Finish", "Moisture Resistant", "Scratch Protection", "Eco-Friendly"],
     applications: ["Food Packaging", "Labels & Stickers", "Brochures", "Shopping Bags"],
-    image: "/assets/img/project/05.jpg",
+    image: "/assets/img/products/glass-list.jpg",
     gallery: [
-      "/assets/img/project/details-1.jpg",
-      "/assets/img/project/details-2.jpg",
-      "/assets/img/project/details-3.jpg",
-      "/assets/img/project/details-4.jpg",
+      "/assets/img/products/glass.webp",
+      "/assets/img/products/glass2.webp",
+      "/assets/img/products/glass4.jpg",
+      "/assets/img/products/glass6.jpg",
     ],
     info: {
       Supplier: "Ayush Marketing",

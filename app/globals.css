@@ -78,7 +78,7 @@
   content: "";
   position: absolute;
   inset: -20px;
-  background-image: url("../public/assets/img/breadcrum.webp");
+  background-image: url("../public/assets/img/bread.png");
   background-size: cover;
   background-position: center;
   filter:brightness(0.5);

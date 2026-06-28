@@ -305,7 +305,7 @@ const MobileMenu = ({ menu }) => {
             </li>
             <Fragment>
               <li>
-                <Link href="about">About</Link>
+                <Link href="/about">About</Link>
               </li>
               <li>
                 <a href="#" onClick={() => activeMenuSet("Services")}>
@@ -416,7 +416,7 @@ const MobileMenu = ({ menu }) => {
                 </a>
               </li>
               <li className="mean-last">
-                <Link href="contact">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </Fragment>
           </ul>
@@ -494,7 +494,7 @@ const Sidebar = ({ sidebarToggle, close, menu }) => {
                   </li>
                 </ul>
                 <div className="header-button mt-4">
-                  <Link href="contact" className="theme-btn text-center">
+                  <Link href="/contact" className="theme-btn text-center">
                     Contact Us
                   </Link>
                 </div>

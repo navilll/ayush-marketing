@@ -29,9 +29,7 @@ const ProductDetailPage = async ({ params }) => {
 
   return (
     <NextLayout>
-      <Breadcrumb pageName={product.name} pageTitle={product.name} />
-
-      <section className="fix section-padding">
+      <section className="fix section-padding" style={{ paddingTop: 50 }}>
         <div className="container">
 
           {/* ── Top: Main Image + Side Image ── */}
@@ -269,9 +267,9 @@ const ProductDetailPage = async ({ params }) => {
                   </span>
                   {[
                     { icon: "fab fa-facebook-f", color: "#1877f2" },
-                    { icon: "fab fa-whatsapp",   color: "#25d366" },
-                    { icon: "fab fa-twitter",    color: "#1da1f2" },
-                    { icon: "fab fa-linkedin-in",color: "#0a66c2" },
+                    { icon: "fab fa-whatsapp", color: "#25d366" },
+                    { icon: "fab fa-twitter", color: "#1da1f2" },
+                    { icon: "fab fa-linkedin-in", color: "#0a66c2" },
                   ].map(({ icon, color }) => (
                     <a
                       key={icon}

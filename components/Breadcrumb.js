@@ -4,7 +4,7 @@ const Breadcrumb = ({ pageName = "About Company", pageTitle }) => {
   return (
     <div
       className="breadcrumb-wrapper section-padding bg-cover"
-      style={{ backgroundImage: 'url("assets/img/breadcrum.webp")' }}
+      style={{ backgroundImage: 'url("assets/img/bread.webp")' }}
     >
       <div className="container">
         <div className="page-heading">
