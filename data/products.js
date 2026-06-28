@@ -18,6 +18,8 @@ export const products = [
       "/assets/img/products/glass2.webp",
       "/assets/img/products/glass4.jpg",
       "/assets/img/products/glass6.jpg",
+      "/assets/img/products/gloss1.jpg",
+      "/assets/img/products/gloss2.jpg",
     ],
     info: {
       Supplier: "Ayush Marketing",
@@ -48,10 +50,10 @@ export const products = [
     applications: ["Cosmetic Packaging", "Book Covers", "Catalogs", "Promotional Materials"],
     image: "/assets/img/products/matte.jpg",
     gallery: [
-      "/assets/img/project/details-1.jpg",
-      "/assets/img/project/details-2.jpg",
-      "/assets/img/project/details-3.jpg",
-      "/assets/img/project/details-4.jpg",
+      "/assets/img/products/matte-detail.webp",
+      "/assets/img/products/matte1.webp",
+      "/assets/img/products/matte1.jpg",
+      "/assets/img/products/matte2.jpg",
     ],
     info: {
       Supplier: "Ayush Marketing",
@@ -82,10 +84,10 @@ export const products = [
     applications: ["Luxury Packaging", "FMCG Products", "Industrial Packaging", "Branding"],
     image: "/assets/img/products/metalized.jpg",
     gallery: [
-      "/assets/img/project/details-1.jpg",
-      "/assets/img/project/details-2.jpg",
-      "/assets/img/project/details-3.jpg",
-      "/assets/img/project/details-4.jpg",
+      "/assets/img/products/metal.webp",
+      "/assets/img/products/metal1.webp",
+      "/assets/img/products/metal1.jpg",
+      "/assets/img/products/metal2.jpg",
     ],
     info: {
       Supplier: "Ayush Marketing",
@@ -184,8 +186,8 @@ export const products = [
     applications: ["Commercial Printing", "Packaging Printing", "Book Printing", "Magazine Printing"],
     image: "/assets/img/home/ctp.webp",
     gallery: [
-      "/assets/img/project/details-1.jpg",
-      "/assets/img/project/details-2.jpg",
+      "/assets/img/products/ctp1.webp",
+      "/assets/img/home/ctp.webp",
       "/assets/img/project/details-3.jpg",
       "/assets/img/project/details-4.jpg",
     ],
@@ -218,8 +220,8 @@ export const products = [
     applications: ["Offset Printing", "Newspaper Printing", "Commercial Printing", "Packaging"],
     image: "/assets/img/home/ctp-plate.webp",
     gallery: [
-      "/assets/img/project/details-1.jpg",
-      "/assets/img/project/details-2.jpg",
+      "/assets/img/products/ctcp1.webp",
+      "/assets/img/home/ctp.webp",
       "/assets/img/project/details-3.jpg",
       "/assets/img/project/details-4.jpg",
     ],
@@ -252,8 +254,8 @@ export const products = [
     applications: ["High-Volume Packaging", "Newspaper Production", "Publishing", "Commercial Printing"],
     image: "/assets/img/home/double-layer.webp",
     gallery: [
-      "/assets/img/project/details-1.jpg",
-      "/assets/img/project/details-2.jpg",
+      "/assets/img/products/double1.webp",
+      "/assets/img/home/double-layered-ctp.webp",
       "/assets/img/project/details-3.jpg",
       "/assets/img/project/details-4.jpg",
     ],
