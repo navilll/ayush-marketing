@@ -12,7 +12,7 @@ export const products = [
       "Ayush Marketing's Gloss BOPP Lamination Film is engineered to deliver an outstanding high-gloss finish that dramatically enhances the visual appeal of printed materials and packaging. The film's crystal-clear surface amplifies color saturation, making graphics and text appear sharper and more vibrant. Its robust moisture and chemical resistance ensures that packaged products remain protected even in demanding storage and handling conditions.",
     features: ["High Gloss Finish", "Moisture Resistant", "Scratch Protection", "Eco-Friendly"],
     applications: ["Food Packaging", "Labels & Stickers", "Brochures", "Shopping Bags"],
-    image: "/assets/img/products/glass-list.jpg",
+    image: "/assets/img/products/glossy.jpg",
     gallery: [
       "/assets/img/products/glass.webp",
       "/assets/img/products/glass2.webp",
@@ -46,7 +46,7 @@ export const products = [
       "Ayush Marketing's Matte BOPP Lamination Film delivers a refined, non-reflective surface that gives packaging a premium, sophisticated look. Ideal for high-end products where a subtle, understated aesthetic is required. The film enhances print quality while providing excellent resistance to scratches and moisture.",
     features: ["Matte Finish", "Non-Reflective", "Premium Look", "Recyclable"],
     applications: ["Cosmetic Packaging", "Book Covers", "Catalogs", "Promotional Materials"],
-    image: "/assets/img/project/06.jpg",
+    image: "/assets/img/products/matte.jpg",
     gallery: [
       "/assets/img/project/details-1.jpg",
       "/assets/img/project/details-2.jpg",
@@ -80,7 +80,7 @@ export const products = [
       "Ayush Marketing's Metalized BOPP Film combines the flexibility and lightness of BOPP with a brilliant metallic finish. Perfect for premium consumer goods, confectionery, and decorative packaging where visual impact is paramount. The metallization process provides an additional barrier against moisture and oxygen.",
     features: ["Metallic Appearance", "Luxury Finish", "High Durability", "Decorative"],
     applications: ["Luxury Packaging", "FMCG Products", "Industrial Packaging", "Branding"],
-    image: "/assets/img/project/07.jpg",
+    image: "/assets/img/products/metalized.jpg",
     gallery: [
       "/assets/img/project/details-1.jpg",
       "/assets/img/project/details-2.jpg",
@@ -114,7 +114,7 @@ export const products = [
       "Ayush Marketing's Heat Sealable BOPP Film is specifically engineered for form-fill-seal packaging lines and other applications requiring a reliable, strong heat seal. The film's sealable coating activates at precise temperatures, ensuring consistent, tamper-evident closures across high-speed production environments.",
     features: ["Heat Sealable", "Cost-Effective", "Multi-Process Compatible", "Long-Lasting"],
     applications: ["Food Packaging", "Pharmaceutical Packaging", "Industrial Packaging", "FMCG"],
-    image: "/assets/img/project/08.jpg",
+    image: "/assets/img/products/heat.jpg",
     gallery: [
       "/assets/img/project/details-1.jpg",
       "/assets/img/project/details-2.jpg",
@@ -148,7 +148,7 @@ export const products = [
       "Ayush Marketing's Anti-Fog BOPP Film is specially treated to prevent moisture droplets from forming on the film surface, ensuring packaged fresh produce remains clearly visible and appealing in refrigerated displays. The anti-fog treatment maintains optical clarity even under high-humidity cold storage conditions.",
     features: ["Anti-Fog", "Crystal Clear", "Food Safe", "Moisture Control"],
     applications: ["Fresh Food Packaging", "Supermarket Products", "Cold Storage", "Labels"],
-    image: "/assets/img/project/09.jpg",
+    image: "/assets/img/products/fog.jpg",
     gallery: [
       "/assets/img/project/details-1.jpg",
       "/assets/img/project/details-2.jpg",
@@ -182,7 +182,7 @@ export const products = [
       "Ayush Marketing supplies premium Thermal CTP Plates from leading manufacturers including Fujifilm Superia Series, Orient NexGen, and HC Aluminum. These plates are designed for demanding commercial and packaging printing environments where image consistency, press longevity, and reliable ink-water balance are critical.",
     features: ["High Resolution", "Excellent Ink-Water Balance", "Long Press Run", "Fast Processing"],
     applications: ["Commercial Printing", "Packaging Printing", "Book Printing", "Magazine Printing"],
-    image: "/assets/img/project/10.jpg",
+    image: "/assets/img/home/ctp.webp",
     gallery: [
       "/assets/img/project/details-1.jpg",
       "/assets/img/project/details-2.jpg",
@@ -216,7 +216,7 @@ export const products = [
       "Ayush Marketing's CTCP (Computer-to-Conventional Plate) plates offer an economical alternative to thermal CTP without compromising on print quality. By eliminating the need for film, CTCP technology simplifies the pre-press workflow and significantly reduces material and processing costs for medium to high-volume offset printing operations.",
     features: ["Economical", "Sharp Image Quality", "High Durability", "Faster Workflow"],
     applications: ["Offset Printing", "Newspaper Printing", "Commercial Printing", "Packaging"],
-    image: "/assets/img/project/11.jpg",
+    image: "/assets/img/home/ctp-plate.webp",
     gallery: [
       "/assets/img/project/details-1.jpg",
       "/assets/img/project/details-2.jpg",
@@ -250,7 +250,7 @@ export const products = [
       "Ayush Marketing's Double Layer CTP Plates are built for the most demanding print environments. The advanced double-coating technology provides superior resistance to press chemicals, UV inks, and the mechanical stresses of high-speed printing, resulting in significantly extended press life and reduced plate changeover frequency.",
     features: ["Double-Layer Coating", "Extended Press Life", "Chemical Resistant", "High-Volume"],
     applications: ["High-Volume Packaging", "Newspaper Production", "Publishing", "Commercial Printing"],
-    image: "/assets/img/project/12.jpg",
+    image: "/assets/img/home/double-layer.webp",
     gallery: [
       "/assets/img/project/details-1.jpg",
       "/assets/img/project/details-2.jpg",
