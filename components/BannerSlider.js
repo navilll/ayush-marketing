@@ -27,8 +27,8 @@ const slides = [
         ),
         buttonText: "View CTP Plates",
         buttonLink: "/products",
-        secondaryButtonText: "Our Services",
-        secondaryButtonLink: "/service",
+        secondaryButtonText: "Our Blogs",
+        secondaryButtonLink: "/blog",
     },
     {
         image: "/assets/img/banner-3.webp",

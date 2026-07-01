@@ -28,12 +28,12 @@ const page = () => {
                 <div className="content">
                   <p>01</p>
                   <h5>
-                    <Link href="products">
+                    <Link href="/products/gloss-bopp-lamination-film">
                       BOPP Lamination <br />
                       Films
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="products">
+                  <Link className="arrow-btn" href="/products/gloss-bopp-lamination-film">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -50,17 +50,17 @@ const page = () => {
                 <div className="content">
                   <p>02</p>
                   <h5>
-                    <Link href="products">
-                      GL BOPP <br />
+                    <Link href="/products/metalized-bopp-film">
+                      Metalized BOPP <br />
                       Film
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="products">
+                  <Link className="arrow-btn" href="/products/metalized-bopp-film">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
                 <div className="thumb">
-                  <Image src="/assets/img/home/glbopp.webp" alt="GL BOPP Film" width={180} height={165} />
+                  <Image src="/assets/img/home/mt-bopp.jpg" alt="Metalized BOPP Film" width={180} height={165} />
                 </div>
               </div>
             </div>
@@ -72,17 +72,17 @@ const page = () => {
                 <div className="content">
                   <p>03</p>
                   <h5>
-                    <Link href="products">
-                      MT BOPP <br />
+                    <Link href="/products/matte-bopp-lamination-film">
+                      Matte BOPP <br />
                       Film
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="products">
+                  <Link className="arrow-btn" href="/products/matte-bopp-lamination-film">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
                 <div className="thumb">
-                  <Image src="/assets/img/home/mt-bopp.jpg" alt="MT BOPP Film" width={180} height={165} />
+                  <Image src="/assets/img/products/matte.jpg" alt="Matte BOPP Film" width={180} height={165} />
                 </div>
               </div>
             </div>
@@ -94,12 +94,12 @@ const page = () => {
                 <div className="content">
                   <p>04</p>
                   <h5>
-                    <Link href="products">
+                    <Link href="/products/thermal-ctp-plates">
                       CTP &amp; CTCP <br />
                       Plates
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="products">
+                  <Link className="arrow-btn" href="/products/thermal-ctp-plates">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -116,12 +116,12 @@ const page = () => {
                 <div className="content">
                   <p>05</p>
                   <h5>
-                    <Link href="products">
+                    <Link href="/products/ctcp-plates">
                       Positive CTCP <br />
                       Plates
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="products">
+                  <Link className="arrow-btn" href="/products/ctcp-plates">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -138,12 +138,12 @@ const page = () => {
                 <div className="content">
                   <p>06</p>
                   <h5>
-                    <Link href="products">
+                    <Link href="/products/double-layer-ctp-plates">
                       Double Layer <br />
                       Thermal CTP Plates
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="products">
+                  <Link className="arrow-btn" href="/products/double-layer-ctp-plates">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -576,7 +576,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/news/post-1.jpg" alt="BOPP Lamination Film Guide" />
+                  <img src="assets/img/news/blog-1.webp" alt="BOPP Lamination Film Guide" />
                 </div>
                 <div className="content">
                   <p>BOPP Films</p>
@@ -597,12 +597,12 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/news/post-6.jpg" alt="Thermal CTP Plates Guide" />
+                  <img src="assets/img/news/blog-4.webp" alt="Thermal CTP Plates Guide" />
                 </div>
                 <div className="content">
                   <p>CTP Plates</p>
                   <h3>
-                    <Link href="/blog/thermal-ctp-plates-guide">
+                    <Link href="/blog/ctcp-vs-thermal-ctp-plates">
                       A Complete Guide to Thermal CTP Plates for Commercial Printing
                     </Link>
                   </h3>
@@ -618,7 +618,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/news/post-3.jpg" alt="Packaging Trends 2025" />
+                  <img src="assets/img/news/blog-3.webp" alt="Packaging Trends 2025" />
                 </div>
                 <div className="content">
                   <p>Industry Trends</p>

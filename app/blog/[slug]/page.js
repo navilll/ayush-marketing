@@ -97,12 +97,6 @@ const BlogDetailPage = async ({ params }) => {
 
                       <h4>{blog.content.subHeading2}</h4>
 
-                      {/* Detail image 2 — floated left */}
-                      <img
-                        className="alignleft"
-                        src={blog.detailImage2}
-                        alt={blog.title}
-                      />
 
                       <p>{blog.content.subContent2}</p>
 

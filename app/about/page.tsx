@@ -88,11 +88,11 @@ const page = () => {
                     </div>
                   </div>
                   <Link
-                    href="about"
+                    href="contact"
                     className="theme-btn mt-50 wow fadeInUp"
                     data-wow-delay=".5s"
                   >
-                    Know More
+                    Contact Us
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>

@@ -81,7 +81,7 @@ const Footer = () => {
                     <Link href="/products">Products</Link>
                   </li>
                   <li>
-                    <Link href="/blogs">Blogs</Link>
+                    <Link href="/blog">Blogs & News</Link>
                   </li>
                   <li>
                     <Link href="/contact">Contact</Link>
@@ -160,7 +160,7 @@ const Footer = () => {
                       className="thumb bg-cover"
                       style={{
                         backgroundImage:
-                          'url("/assets/img/products/bopp-film.jpg")',
+                          'url("/assets/img/home/bopp.jpg")',
                       }}
                     />
 
@@ -179,7 +179,7 @@ const Footer = () => {
                       className="thumb bg-cover"
                       style={{
                         backgroundImage:
-                          'url("/assets/img/products/ctp-plate.jpg")',
+                          'url("/assets/img/home/double-layer.webp")',
                       }}
                     />
 
